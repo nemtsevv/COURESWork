@@ -1,0 +1,92 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CourseActivity"
+    android:background="@color/colorBlackBlue">
+
+
+    <ImageButton
+        android:id="@+id/updateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:background="@null"
+        app:srcCompat="@android:drawable/ic_menu_rotate" />
+
+    <ImageButton
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@null"
+        android:hapticFeedbackEnabled="false"
+        app:srcCompat="@android:drawable/ic_menu_revert" />
+
+    <TextView
+        android:id="@+id/uahTextView"
+        android:layout_marginTop="150dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#BD8237"
+        android:textSize="24sp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:id="@+id/eurTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/uahTextView"
+        android:textColor="#BD8237"
+        android:textSize="24sp"
+        android:layout_alignStart="@id/uahTextView"
+        />
+
+    <TextView
+        android:id="@+id/rubTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/eurTextView"
+        android:textColor="#BD8237"
+        android:textSize="24sp"
+        android:layout_alignStart="@id/eurTextView"
+        />
+
+    <TextView
+        android:id="@+id/usdTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rubTextView"
+        android:textColor="#BD8237"
+        android:textSize="24sp"
+        android:layout_alignStart="@id/rubTextView"
+        />
+
+    <TextView
+        android:id="@+id/cnyTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/usdTextView"
+        android:textColor="#BD8237"
+        android:textSize="24sp"
+        android:layout_alignStart="@id/usdTextView"
+        />
+
+    <TextView
+        android:id="@+id/plnTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cnyTextView"
+        android:textColor="#BD8237"
+        android:textSize="24sp"
+        android:layout_alignStart="@id/cnyTextView"
+        />
+
+
+
+
+</RelativeLayout>
